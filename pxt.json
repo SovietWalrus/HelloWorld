@@ -3,7 +3,9 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "ev3": "*"
+        "ev3": "*",
+        "automation": "github:microsoft/pxt-automation#v0.0.3",
+        "broadcast": "*"
     },
     "files": [
         "README.md",
@@ -12,6 +14,5 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
-    "additionalFilePaths": []
+    "public": false
 }
